@@ -4,18 +4,32 @@
 	font-family: "Open Sans";
 }
 
+html, body {
+	margin:0;
+	padding:0;
+}
+
+li {
+	font-size: 18px;
+}
+
+h2{
+	font-size: 25px;
+}
+
 .page-title{
 	font-size: 30px;
 	font-weight: bold;
 	text-align: center;
 	text-decoration: underline;
 	margin-top: inherit;
+	margin-bottom: 10px;
 	border: inherit;
 }
 
 .main-title{
+	background-color: rgb(181,181,181);
 	alignment: center;
 	text-align: center;
-	margin-top: 0;
 	border: 0;
 }
