@@ -17,6 +17,10 @@ h2{
 	font-size: 25px;
 }
 
+.main-body {
+	padding-left: 15px;
+}
+
 .page-title{
 	font-size: 30px;
 	font-weight: bold;
