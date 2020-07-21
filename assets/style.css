@@ -13,6 +13,7 @@ html, body {
 .main-body {
 	display: inline-block;
 	text-align: left;
+	max-width: 750px;
 }
 
 h2 {
@@ -26,11 +27,6 @@ ul {
 li {
 	font-size: 18px;
 }
-
-/* .section-questions {
-	display: inline-block;
-	text-align: left;
-} */
 
 .page-title {
 	font-size: 30px;
