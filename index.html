@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./assets/style.css"/>
     <link rel="icon" href="./assets/castofly-logo.jpg"/>
     <title>Sample Help Page</title>
+    <script src="./js/questionsAndAnswers.js"></script>
 </head>
 
 <body>
@@ -15,23 +16,32 @@
 </div>
 
 <div class="main-body">
-        <div class="drawing-section">
+
+    <!-- Tab links -->
+    <div class="tab">
+        <button class="tablinks" onclick="openQuestions(event, 'drawing-section')">Drawing</button>
+        <button class="tablinks" onclick="openQuestions(event, 'tools-section')">Tools</button>
+        <button class="tablinks" onclick="openQuestions(event, 'audio-section')">Audio</button>
+        <button class="tablinks" onclick="openQuestions(event, 'other-section')">Other</button>
+    </div>
+
+    <div id="drawing-section" class="tabcontent">
         <h2>Drawing</h2>
         <ul>
-            <li><a href="./drawingAnswers/draw-on-canvas-answer.html">How do I draw on the canvas?</a></li>
+            <li><a href="./drawingAnswers/draw-on-canvas-answer.html" onclick="">How do I draw on the canvas?</a></li>
             <li>How do I change my brush type?</li>
         </ul>
     </div>
-
-    <div class="tools-section">
+      
+    <div id="tools-section" class="tabcontent">
         <h2>Tools</h2>
         <ul>
             <li><a href="./toolsAnswers/eraser-tool-answer.html">Eraser</a></li>
             <li>Rotator</li>
         </ul>
     </div>
-
-    <div class="audio-section">
+      
+    <div id="audio-section" class="tabcontent">
         <h2>Audio</h2>
         <ul>
             <li>How do I adjust audio amplitude?</li>
@@ -39,13 +49,14 @@
         </ul>
     </div>
 
-    <div class="other-section">
+    <div id="other-section" class="tabcontent">
         <h2>Other</h2>
         <ul>
             <li><a href="./otherAnswers/what-does-fox-say-answer.html">What does the fox say?</a></li>
             <li>Green eggs and ham recipe</li>
         </ul>
     </div>
+
     </div>
 </div>
 
