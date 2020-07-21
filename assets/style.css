@@ -7,19 +7,30 @@
 html, body {
 	margin:0;
 	padding:0;
+	text-align: center; 
+}
+
+.main-body {
+	display: inline-block;
+	text-align: left;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+ul {
+	list-style-position: inside;
 }
 
 li {
 	font-size: 18px;
 }
 
-h2{
-	font-size: 25px;
-}
-
-.main-body {
-	padding-left: 15px;
-}
+/* .section-questions {
+	display: inline-block;
+	text-align: left;
+} */
 
 .page-title {
 	font-size: 30px;
