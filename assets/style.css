@@ -21,7 +21,7 @@ h2{
 	padding-left: 15px;
 }
 
-.page-title{
+.page-title {
 	font-size: 30px;
 	font-weight: bold;
 	text-align: center;
@@ -31,9 +31,12 @@ h2{
 	border: inherit;
 }
 
-.main-title{
+.main-title {
 	background-color: rgb(181,181,181);
-	alignment: center;
 	text-align: center;
 	border: 0;
+}
+
+.return-link {
+	font-size: 14px;
 }
