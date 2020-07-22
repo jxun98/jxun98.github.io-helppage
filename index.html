@@ -17,47 +17,52 @@
 
 <div class="main-body">
 
-    <!-- Tab links -->
-    <div class="tab">
-        <button class="tablinks" onclick="openQuestions(event, 'drawing-section')">Drawing</button>
-        <button class="tablinks" onclick="openQuestions(event, 'tools-section')">Tools</button>
-        <button class="tablinks" onclick="openQuestions(event, 'audio-section')">Audio</button>
-        <button class="tablinks" onclick="openQuestions(event, 'other-section')">Other</button>
+    <div id="leftside">
+        <!-- Tab links -->
+        <div class="tab">
+            <button class="tablinks" onclick="openQuestions(event, 'drawing-section')">Drawing</button>
+            <button class="tablinks" onclick="openQuestions(event, 'tools-section')">Tools</button>
+            <button class="tablinks" onclick="openQuestions(event, 'audio-section')">Audio</button>
+            <button class="tablinks" onclick="openQuestions(event, 'other-section')">Other</button>
+        </div>
+
+        <div id="drawing-section" class="tabcontent">
+            <h2>Drawing</h2>
+            <ul>
+                <li><a href="./drawingAnswers/draw-on-canvas-answer.html" onclick="">How do I draw on the canvas?</a></li>
+                <li>How do I change my brush type?</li>
+            </ul>
+        </div>
+        
+        <div id="tools-section" class="tabcontent">
+            <h2>Tools</h2>
+            <ul>
+                <li><a href="./toolsAnswers/eraser-tool-answer.html">Eraser</a></li>
+                <li onclick="fillRightDiv('hohoho')">Rotator</li>
+            </ul>
+        </div>
+        
+        <div id="audio-section" class="tabcontent">
+            <h2>Audio</h2>
+            <ul>
+                <li>How do I adjust audio amplitude?</li>
+                <li>Syncing audio with drawings</li>
+            </ul>
+        </div>
+
+        <div id="other-section" class="tabcontent">
+            <h2>Other</h2>
+            <ul>
+                <li><a href="./otherAnswers/what-does-fox-say-answer.html">What does the fox say?</a></li>
+                <li>Green eggs and ham recipe</li>
+            </ul>
+        </div>
     </div>
 
-    <div id="drawing-section" class="tabcontent">
-        <h2>Drawing</h2>
-        <ul>
-            <li><a href="./drawingAnswers/draw-on-canvas-answer.html" onclick="">How do I draw on the canvas?</a></li>
-            <li>How do I change my brush type?</li>
-        </ul>
-    </div>
-      
-    <div id="tools-section" class="tabcontent">
-        <h2>Tools</h2>
-        <ul>
-            <li><a href="./toolsAnswers/eraser-tool-answer.html">Eraser</a></li>
-            <li>Rotator</li>
-        </ul>
-    </div>
-      
-    <div id="audio-section" class="tabcontent">
-        <h2>Audio</h2>
-        <ul>
-            <li>How do I adjust audio amplitude?</li>
-            <li>Syncing audio with drawings</li>
-        </ul>
-    </div>
-
-    <div id="other-section" class="tabcontent">
-        <h2>Other</h2>
-        <ul>
-            <li><a href="./otherAnswers/what-does-fox-say-answer.html">What does the fox say?</a></li>
-            <li>Green eggs and ham recipe</li>
-        </ul>
-    </div>
+    <div id="rightside">
 
     </div>
+
 </div>
 
 </body>

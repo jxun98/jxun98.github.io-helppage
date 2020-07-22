@@ -13,7 +13,8 @@ html, body {
 .main-body {
 	display: inline-block;
 	text-align: left;
-	max-width: 750px;
+	/*max-width: 750px;*/
+	border: 1px solid orange;
 }
 
 h2 {
@@ -46,6 +47,20 @@ li {
 
 .return-link {
 	font-size: 14px;
+}
+
+.leftside {
+	display: inline-block;
+    width:500px;
+    height:150px;
+    border: 1px solid red;
+}
+
+.rightside {
+	display: inline-block;
+    width:500px;
+    height:160px;
+    border: 1px solid green;
 }
 
 /* Style the tab */
