@@ -1,4 +1,4 @@
-function openQuestions(evt, cityName) {
+function openQuestions(evt, sectionId) {
     // Declare all variables
     var i, tabcontent, tablinks;
   
@@ -15,14 +15,9 @@ function openQuestions(evt, cityName) {
     }
   
     // Show the current tab, and add an "active" class to the button that opened the tab
-    document.getElementById(cityName).style.display = "block";
+    document.getElementById(sectionId).style.display = "block";
     evt.currentTarget.className += " active";
 }
-
-function fillRightDiv(htmlPath) {
-  document.getElementById("rightside").innerHTML = '<ul> <li><a href="./drawingAnswers/draw-on-canvas-answer.html" onclick="">How do I draw on the canvas?</a></li><li>How do I change my brush type?</li></ul>';
-}
-
 
 function fillDiv(question) {
     for (const key in answerJSON) {
