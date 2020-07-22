@@ -13,5 +13,18 @@ var answerJSON =
                            "<img src=\"./assets/area-brush.gif\" alt=\"area-brush\"/> " +
                            "<img src=\"./assets/dashed-line.gif\" alt=\"dashed-gif\"/> " +
                            "<img src=\"./assets//line-tool.gif\" alt=\"line-tool\"/> " +
-                  "<\/div>"
+                  "<\/div>",
+        "eraser": "<div class=\"answer-step\">\n" +
+            "        <h2>Select the eraser.</h2>\n" +
+            "        <p>Select the eraser tool from the tools menu located on the right side of the application.</p>\n" +
+            "        <img src=\"./assets/eraser.png\" alt=\"eraser-image\"/>\n" +
+            "    </div>\n" +
+            "\n" +
+            "    <div class=\"answer-step\">\n" +
+            "        <h2>Select the art to be erased.</h2>\n" +
+            "        <p>Click and drag your mouse to create a selection rectangle that encompasses the art that you would like to erase. Please\n" +
+            "            make sure that the art is fully enclosed by the selection rectangle.\n" +
+            "        </p>\n" +
+            "        <img src=\"./assets/eraser.gif\" alt=\"eraser-gif\"/>\n" +
+            "    </div>"
     };

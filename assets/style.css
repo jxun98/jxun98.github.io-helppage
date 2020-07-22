@@ -13,7 +13,7 @@ html, body {
 .main-body {
 	display: inline-block;
 	text-align: left;
-	/*max-width: 750px;*/
+	max-width: 750px;
 }
 
 h2 {
@@ -57,6 +57,7 @@ li {
 .rightside {
 	display: inline-block;
     width:500px;
+	max-width: 500px;
     height:160px;
 }
 

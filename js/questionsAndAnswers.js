@@ -25,7 +25,6 @@ function fillRightDiv(htmlPath) {
 
 
 function fillDiv(question) {
-    console.log("hi");
     for (const key in answerJSON) {
         if (key === question) {
             $("#rightside").empty();
