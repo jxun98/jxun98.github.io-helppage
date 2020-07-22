@@ -13,7 +13,7 @@ html, body {
 .main-body {
 	display: inline-block;
 	text-align: left;
-	/*max-width: 750px;*/
+	width: 100%;
 }
 
 h2 {
@@ -49,18 +49,15 @@ li {
 	font-size: 14px;
 }
 
-.leftside {
-	display: inline-block;
-    width:500px;
-    height:150px;
+#leftside {
+    width:40%;
+	float: left;
 }
 
-.rightside {
-	display: inline-block;
-    width:500px;
-	max-width: 500px;
-    height:160px;
-
+#rightside {
+	width: 55%;
+	margin-left: 40%;
+	padding-left: 15px;
 }
 
 /* Style the tab */
