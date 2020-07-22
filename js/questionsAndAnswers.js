@@ -17,21 +17,19 @@ function openQuestions(evt, cityName) {
     // Show the current tab, and add an "active" class to the button that opened the tab
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
-};
+}
 
 function fillRightDiv(htmlPath) {
   document.getElementById("rightside").innerHTML = '<ul> <li><a href="./drawingAnswers/draw-on-canvas-answer.html" onclick="">How do I draw on the canvas?</a></li><li>How do I change my brush type?</li></ul>';
 }
 
+
 function fillDiv(question) {
-    var jsonAnswer;
-    $.getJSON("./json/answers.json", function(json) {
-        $.each(json, function(key, value) {
-           if (key === question) {
-               jsonAnswer = value;
-           }
-        });
-        $("#rightside").empty();
-        $('#rightside').append(jsonAnswer);
-    });
+    console.log("hi");
+    for (const key in answerJSON) {
+        if (key === question) {
+            $("#rightside").empty();
+            $('#rightside').append(answerJSON[key]);
+        }
+    }
 }
