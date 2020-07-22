@@ -5,7 +5,7 @@
 }
 
 html {
-	overflow-y: scroll;
+    width: 100vw;
 	margin:0;
 	padding:0;
 	text-align: center;
@@ -68,6 +68,7 @@ li {
 	margin-left: 38%;
 	padding-left: 3%;
 	padding-right: 2%;
+	padding-bottom: 3%;
 }
 
 /* Style the tab */
