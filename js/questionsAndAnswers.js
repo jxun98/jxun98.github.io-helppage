@@ -22,3 +22,16 @@ function openQuestions(evt, cityName) {
 function fillRightDiv(htmlPath) {
   document.getElementById("rightside").innerHTML = '<ul> <li><a href="./drawingAnswers/draw-on-canvas-answer.html" onclick="">How do I draw on the canvas?</a></li><li>How do I change my brush type?</li></ul>';
 }
+
+function fillDiv(question) {
+    var jsonAnswer;
+    $.getJSON("./json/answers.json", function(json) {
+        $.each(json, function(key, value) {
+           if (key === question) {
+               jsonAnswer = value;
+           }
+        });
+        $("#rightside").empty();
+        $('#rightside').append(jsonAnswer);
+    });
+}
