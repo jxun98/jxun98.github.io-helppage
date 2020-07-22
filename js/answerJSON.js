@@ -26,5 +26,16 @@ var answerJSON =
             "            make sure that the art is fully enclosed by the selection rectangle.\n" +
             "        </p>\n" +
             "        <img src=\"./assets/eraser.gif\" alt=\"eraser-gif\"/>\n" +
+            "    </div>",
+        "fox": "<div class=\"answer-step\">\n" +
+            "        <h2>This. This is what the fox says.</h2>\n" +
+            "        <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/jofNR_WkoCE\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n" +
+            "    </div>\n" +
+            "    \n" +
+            "    <div class=\"answer-step\">\n" +
+            "        <h2>Or this. This works too.</h2>\n" +
+            "        <video controls>\n" +
+            "            <source src=\"./assets/Foxes Making Funny and Cute Noises.mp4\" type=\"video/mp4\"/>\n" +
+            "        </video>\n" +
             "    </div>"
     };
