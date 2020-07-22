@@ -4,10 +4,19 @@
 	font-family: "Open Sans";
 }
 
-html, body {
+html {
+	overflow-y: scroll;
 	margin:0;
 	padding:0;
-	text-align: center; 
+	text-align: center;
+	height: 100%;
+}
+
+body {
+	margin:0;
+	padding:0;
+	text-align: center;
+	height: 100%;
 }
 
 .main-body {
@@ -41,8 +50,7 @@ li {
 
 .main-title {
 	background-color: rgb(181,181,181);
-	text-align: center;
-	border: 0;
+	width: 100%;
 }
 
 .return-link {
@@ -50,14 +58,16 @@ li {
 }
 
 #leftside {
-    width:40%;
+    width:35%;
 	float: left;
+	padding-left: 3%;
 }
 
 #rightside {
-	width: 55%;
-	margin-left: 40%;
-	padding-left: 15px;
+	width: 57%;
+	margin-left: 38%;
+	padding-left: 3%;
+	padding-right: 2%;
 }
 
 /* Style the tab */
