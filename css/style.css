@@ -38,6 +38,12 @@ li {
 	cursor: pointer;
 }
 
+.fake-link {
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
 .page-title {
 	font-size: 30px;
 	font-weight: bold;
@@ -106,4 +112,4 @@ li {
 	border: 1px solid #ccc;
 	border-top: none;
 	/*width: 350px;*/
-  } 
+  }
